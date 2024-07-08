@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <script src="./dist/js/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+
+    <main>
+        <div class="weatherBox">
+            <div class="weatherHeader">
+                <h3>Confira o clima de uma cidade:</h3>
+                <div class="inputHeader">
+                    <input type="text" id="inputCity" placeholder="Digite o nome da cidade">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="weatherData" class="hide">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city"></span>
+                    <img src="" alt="Bandeira do país" id="country">
+                </h2>
+                <p id="temp"><span></span>&deg;C</p>
+                <div id="weatherDescription">
+                    <p id="description"></p>
+                    <img src="" alt="Condições do tempo" id="weatherIcon">
+                </div>
+                <div id="weatherDetails">
+                    <p id="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <span></span>
+                    </p>
+                    <p id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
