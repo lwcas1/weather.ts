@@ -37,3 +37,14 @@ if (searchBtn) {
         }
     });
 }
+if (cityInput) {
+    cityInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            const city = cityInput?.value;
+            if (city) {
+                showWeatherData(city);
+            }
+        }
+    });
+}
