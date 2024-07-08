@@ -10,7 +10,13 @@ Um projeto de um website interativo que confere o tempo a partir de uma busca de
 - Programa desenvolvido em TypeScript;
 - Chave da API em a mostra a fim de demonstração prática;
 
+### Stack utilizada
+
+**Front-end:** CSS, HTML, TypeScript.
+
 ###
+
+### Demonstração
 
 ![img](https://i.imgur.com/kwszH9f.png)
 
@@ -19,7 +25,3 @@ Um projeto de um website interativo que confere o tempo a partir de uma busca de
 ![img](https://imgur.com/eH9V1ko.png)
 
 ![img](https://imgur.com/yeMMawb.png)
-
-## Stack utilizada
-
-**Front-end:** CSS, HTML, TypeScript.
